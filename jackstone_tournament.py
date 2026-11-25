@@ -81,6 +81,7 @@ while choice != 12:
     elif choice == 9:
         scores.reverse()
         print(f"The scores order has been reversed.")
+        print(f"Updated scores: {scores}")
     elif choice == 10:
         scores.clear()
         print(f"The scores have been cleared.")
